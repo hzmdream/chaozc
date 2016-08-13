@@ -8,7 +8,19 @@
   <groupId>com.chaozc.czcparent</groupId>
   <artifactId>czcweb</artifactId>
   <packaging>war</packaging>
-<build>
+  <dependencies>
+  	<dependency>
+		<groupId>com.chaozc.czcparent</groupId>
+		<artifactId>czccore</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<dependency>
+		<groupId>com.chaozc.czcparent</groupId>
+		<artifactId>common</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+  </dependencies>
+<build> 
     <pluginManagement>
         <plugins>
             <plugin>  
