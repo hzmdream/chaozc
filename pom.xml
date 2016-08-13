@@ -4,6 +4,11 @@
   <artifactId>czcparent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <modules>
+  	<module>common</module>
+  	<module>czccore</module>
+  	<module>czcweb</module>
+  </modules>
   <!-- 包含项目中个yongdao -->
   <properties>
 	<junit.version>4.12</junit.version>
