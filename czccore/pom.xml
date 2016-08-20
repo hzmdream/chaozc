@@ -8,6 +8,10 @@
   <groupId>com.chaozc.czcparent</groupId>
   <artifactId>czccore</artifactId>
   <dependencies>
+  		<dependency>
+			<groupId>xstream</groupId>
+			<artifactId>xstream</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>dom4j</groupId>
 			<artifactId>dom4j</artifactId>
