@@ -3,11 +3,11 @@
   <display-name>czcweb</display-name>
   <servlet>
   	<servlet-name>CoreController</servlet-name>
-  	<servlet-class>com.chaozc.czcweb.controller</servlet-class>
+  	<servlet-class>com.chaozc.czcweb.controller.CoreController</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>CoreController</servlet-name>
-  	<url-pattern>/CoreServlet</url-pattern>
+  	<url-pattern>/core</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
